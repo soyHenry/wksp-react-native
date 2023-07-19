@@ -14,6 +14,7 @@ export default function CharacterCard({image, name}) {
 				source={image}
 			/>
       <Text style={[styles.name, styles.nameNightMode]}>{name}</Text>
+      {/* <Text style={[styles.name, styles.nameNightMode]}>{name}</Text> */}
 
     </TouchableOpacity>
   );
